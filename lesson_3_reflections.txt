@@ -18,7 +18,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    In the example shown, the last known state of the remote stored locally is referred by origin/master. The benefit of origin/master is that we can keep a track of how many commits have been done locally after the sync with github repo. Also, it will help when we push the local commits to github and pull the remote commits to local. This will also help us identify if there is a merge conflict so that we can resolve and keep the local copy up to date with the remote one.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
