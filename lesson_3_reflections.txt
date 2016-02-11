@@ -23,7 +23,8 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    We can collaborate without using git or github by making pull requests. We can clone the repository, create a new branch and make some changes to it. Later we can push those changes to the github repo and then make a pull request to the owner of the repository. The owner can review the changes and can then decide if he/she wants to merge that changes to the master branch.
+    Its always easy to create a pull requests using github than manually doing the updates and notifying the owner, which is harder.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
