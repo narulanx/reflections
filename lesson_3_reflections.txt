@@ -29,4 +29,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When there are more than one people working in a codebase, there may be scenarios that 2 or more people are making changes on the same line of code. This  makes managing the code little complicated. Hence it is required for each person to work on their separate branch and host it on github. To merge the changes into the master branch, the copy can be pulled locally, merge the master into the new branch, then push the new branch to github and finally merge this branch with master. Hence, in such scenarios it is always beneficial to make changes in a separate branch.
+    Making changes in the master branch is useful when you are the only person working on that code and you are sure that these changes are necessary.
